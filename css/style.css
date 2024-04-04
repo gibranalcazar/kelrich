@@ -1,0 +1,88 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.gradient-background-gn{
+  background-color: #00bfff;
+  background: linear-gradient(300deg, #444343,#444343,#00bfff, #444343, #444343);
+  background-size: 200% 100%;
+  /* animation: gn-animation 20s ease infinite; */
+  animation-name: gn-animation;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  /* animation-timing-function: linear; */
+  animation-iteration-count: infinite;
+  /* animation-direction: reverse; */
+}
+
+@keyframes gn-animation{
+  0%   {
+    background-position: 0% 50%;}
+  25% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 150% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 60vh;
+  border-radius: 40%;
+}
+
+.nav-item{
+  font-weight: bold;
+}
+.navbar-brand{
+  font-weight: bold;
+}
+.navbar-nav .nav-link:hover{
+  color: #4db2f1; /* Cambia el color del texto al hacer hover */
+  /* text-decoration: underline; */ /* Añade subrayado al hacer hover */
+  font-weight: bold;
+}
+.navbar-brand:hover {
+color: #4db2f1; /* Cambia el color del texto al hacer hover */
+/* text-decoration: underline; */ /* Añade subrayado al hacer hover */
+font-weight: bold;
+}
+#title1{
+  font-size: 4vw;
+  color: rgb(226, 230, 243);
+  position: absolute;
+  top: 20%; /* Desplazamiento de 20px hacia abajo */
+  left: 20%; /* Desplazamiento de 10px hacia la izquierda */
+}
+.headline-servicios{
+  color: #ff4c68;
+}
+#footer{
+  background-color: #b6b2b2;
+}
