@@ -8,3 +8,5 @@ function cerrarMenu() {
       document.querySelector('.navbar-collapse').classList.remove('show');
     }
   });
+
+  
