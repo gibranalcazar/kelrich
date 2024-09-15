@@ -80,6 +80,27 @@ font-weight: bold;
   top: 20%; /* Desplazamiento de 20px hacia abajo */
   left: 20%; /* Desplazamiento de 10px hacia la izquierda */
 }
+#loreto{
+  position: relative;
+  overflow: hidden;
+}
+#description{
+  position: absolute;
+  font-size: 2vw;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 20px; /* Espacio interior */
+    width: 80%; /* Ancho del contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+}
+.img-loreto {
+  width: 100%;
+  height: auto;
+}
 .headline-servicios{
   color: #ff4c68;
 }
